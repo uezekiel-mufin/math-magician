@@ -33,7 +33,7 @@
 
 <summary>Client</summary>
 <ul>
-  <li><a href="https://reactjs.org/">React JS</a></li>
+  <li><a href="https://reactjs.org/">ReactJS</a></li>
 </ul>
 
 ### Key Features <a name="key-features"></a>
@@ -71,14 +71,14 @@ To clone this repository to your desired folder, follow the steps below:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Ezzywealth/capstone-module2
+  git clone https://github.com/Ezzywealth/math-magician
 ```
 
 **Using GitHub Desktop app**
 
 - Follow the steps below
 
-  - Visit this link "https://github.com/Ezzywealth/capstone-module2"
+  - Visit this link "https://github.com/Ezzywealth/math-magician"
   - Click the green button labelled "code"
   - Select the "Open with GitHub Desktop" option
   - After the GitHub Desktop add opens, click the "clone repo" button
