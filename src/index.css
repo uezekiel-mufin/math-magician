@@ -22,10 +22,11 @@ body {
 .row {
   width: 100%;
   display: grid;
+  background-color: #ebedf0;
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.row span {
+.row button {
   text-align: center;
   border: 1px solid rgb(192, 190, 190);
   padding: 1.5rem 0;
@@ -33,11 +34,8 @@ body {
   cursor: pointer;
 }
 
-.row span:not(:last-child) {
-  background-color: #ebedf0;
-}
-
-.row span:last-child {
+.row :nth-child(4n),
+.row :last-child {
   background-color: #fe9600;
 }
 
