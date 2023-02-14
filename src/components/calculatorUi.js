@@ -16,10 +16,9 @@ const Calculator = () => {
 
     if(numberOne !== ''){
       if(value === '%' || value === '-' || value === '*' || value === '+' || value === '/' ){
-        console.log(numberOne)
         setInputValue('')
-        setOperator(()=>value)
-        setInputValue(`${value}`)
+        setOperator(value)
+        setInputValue(`${value} ${numberOne} `)
         return
       }
     }
@@ -30,10 +29,9 @@ const Calculator = () => {
       if(!numberTwo){
         setInputValue('')
         setNumberTwo(`${value}`)
-        // setInputValue(`${inputValue}${value}`)
       }
       setNumberTwo(`${numberTwo}${value}`)
-      setInputValue(`${value}`)
+      setInputValue(`${value} ${inputValue}`)
     }
   }
 
