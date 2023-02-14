@@ -10,6 +10,7 @@ const Calculator = () => {
   const [operator,setOperator]=useState('')
 
 
+
   const handleNumber=(e)=>{
     const value = e.target.textContent
 
@@ -57,8 +58,10 @@ const Calculator = () => {
       setOperator('')
       setInputValue('')
     }
-   console.log(result)
   }
+
+
+  
 
   return(
     <div className="container">
