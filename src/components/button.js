@@ -8,5 +8,5 @@ const Button = ({btn,onClick}) => {
   )
 }
 
-export default React.memo(Button);
+export default Button;
 Button.propTypes = {btn: PropTypes.string.isRequired, onClick: PropTypes.func.isRequired}
