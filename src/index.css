@@ -48,7 +48,7 @@ input {
   width: 100%;
   padding: 1.2rem 10px;
   box-sizing: border-box;
-  direction: rtl;
+  text-align: right;
   border-bottom: none;
   background-color: gray;
   color: white;
