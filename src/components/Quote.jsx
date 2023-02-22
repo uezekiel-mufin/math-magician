@@ -4,7 +4,8 @@ const Quote = () => {
   return (
     <div className='quote'>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorem, at, voluptate pariatur, aliquam deserunt nulla aut hic error necessitatibus libero nesciunt! Voluptates commodi delectus enim, tempore dolores perspiciatis architecto.
+        Mathematics as an expression of the human mind reflects the active will, the contemplative reason, and the desire for aesthetic perfection. Its basic elements are logic and intuition, analysis and construction, generality and individuality.
+        — Richard Courant, German-American mathematician
       </p>
     </div>
   )
