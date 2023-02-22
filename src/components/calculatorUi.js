@@ -71,14 +71,15 @@ const Calculator = () => {
 
   return(
     <div className="container">
-    <div className="calculator_container">
-      <div className="input_field"><input type="text" value={inputValue} onChange={()=>setInputValue(inputValue)}/></div>
-      <div className="row">
-      {btnFirst.map((btn,ind)=>(
-          <Button btn={btn} key={ind}  onClick={(e)=> calculateObject(e)}/>
-        ))}
+      <h1 className='calc_header'>Lets do some Math</h1>
+      <div className="calculator_container">
+        <div className="input_field"><input type="text" value={inputValue} onChange={()=>setInputValue(inputValue)}/></div>
+        <div className="row">
+        {btnFirst.map((btn,ind)=>(
+            <Button btn={btn} key={ind}  onClick={(e)=> calculateObject(e)}/>
+          ))}
+        </div>
       </div>
-    </div>
   </div>
 )
   };

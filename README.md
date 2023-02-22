@@ -34,11 +34,14 @@
 <summary>Client</summary>
 <ul>
   <li><a href="https://reactjs.org/">ReactJS</a></li>
+  <li><a href="https://reactrouter.com/en/main">React Router</a></li>
 </ul>
 
 ### Key Features <a name="key-features"></a>
 
 - **Display home page**
+- **Display calculator page**
+- **Display quote page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
