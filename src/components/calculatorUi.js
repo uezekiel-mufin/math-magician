@@ -66,11 +66,8 @@ const Calculator = () => {
     }
   }
 
-
-  
-
   return(
-    <div className="container">
+    <div className="container"  >
       <h1 className='calc_header'>Lets do some Math</h1>
       <div className="calculator_container">
         <div className="input_field"><input type="text" value={inputValue} onChange={()=>setInputValue(inputValue)}/></div>
